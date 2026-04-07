@@ -1,0 +1,12 @@
+# Ignore big CSV files & binaries
+*.csv
+bin/
+*.jar
+*.class
+.vscode/
+
+# Keep the results and code
+!results/
+!*.tsv
+!*.py
+!src/
