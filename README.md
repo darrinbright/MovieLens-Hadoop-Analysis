@@ -4,7 +4,7 @@ This project performs exploratory data analysis on the MovieLens 20M dataset usi
 
 ---
 
-## 🏗️ 1. Architecture Overview
+## 1. Architecture Overview
 
 To process massive amounts of data efficiently, this project uses a three-tier Big Data architecture:
 
@@ -24,7 +24,7 @@ Since Hadoop's output is structured TSV text distributed across HDFS, we export 
 
 ---
 
-## ⚙️ 2. MapReduce Algorithms Explained
+## 2. MapReduce Algorithms Explained
 
 This project executes 6 separate Java MapReduce jobs, each analyzing a different entity within the MovieLens dataset.
 
@@ -66,7 +66,7 @@ This project executes 6 separate Java MapReduce jobs, each analyzing a different
 
 ---
 
-## 🚀 3. Execution Pipeline
+## 3. Execution Pipeline
 
 If you were to run this project from a pristine cluster, the flow is as follows:
 
@@ -95,6 +95,3 @@ If you were to run this project from a pristine cluster, the flow is as follows:
    ```bash
    streamlit run dashboard.py
    ```
-
----
-*Developed by Darrin Bright for Big Data Analytics.*
